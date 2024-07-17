@@ -10,6 +10,7 @@ The function iterates over each character in the input text and processes it acc
 **Character Processing:**
 
 Lowercase Letters:
+
 For encryption (mode == '1'), the character is shifted forward by the key value.
 
 For decryption (mode == '2'), the character is shifted backward by the key value.
@@ -20,6 +21,7 @@ Similar to lowercase letters, but the operations are adjusted for the uppercase 
 
 **Digits:**
 Digits are also shifted forward or backward within their range (0-9).
+
 **Validation:**
 
 The function checks if each character is alphanumeric. 
@@ -37,5 +39,7 @@ Finally, the user specifies the mode: '1' for encryption or '2' for decryption.
 **Main Program Logic:**
 
 The main block of the program checks if the mode input by the user is valid.
+
 It then calls the encrypt_decrypt function with the provided inputs.
+
 The resulting encrypted or decrypted message is printed to the console.
